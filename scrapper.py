@@ -60,12 +60,12 @@ def sendEmail(body):
     
     SENDER_EMAIL = 'dsaiandmldl@gmail.com'
     SENDER_PASSWORD = os.environ['GMAIL_PASSWORD']
-    RECIEVER_EMAIL = '1242sanjay@gmail.com'
+    RECEIVER_EMAIL = '1242sanjay@gmail.com'
     subject = 'Youtube trending videos'
     
     email_text = f"""\
     From: {SENDER_EMAIL}
-    To: {RECIEVER_EMAIL}
+    To: {RECEIVER_EMAIL}
     Subject: {subject}
     {body}
     """
